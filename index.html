@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV C. Schott - Gerador de senhas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Gerador de Senhas</h1>
+
+        <span>Tamanho <span id="valor"></span> caracteres</span>
+        <input type="range" class="slider" id="slider" min="5" max="25" value="15">
+
+        <button onclick="gerarSenha()" id="button" class="button-cta">Gerar senha</button>
+
+        <div id="container-senha" class="container-senha hide">
+            <span class="chamada">Sua senha gerada é: </span><br>
+            <div class="box-senha" onclick="copiarSenha()">
+                <span id="senha" class="senha"></span><br>
+            </div>
+
+            <span class="chamada-final">Clique na senha para copiar</span>
+
+        </div>
+
+
+        
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
