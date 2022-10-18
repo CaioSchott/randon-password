@@ -25,6 +25,7 @@ main {
     background-color: rgb(140, 0, 255);
     box-shadow: 0 0 20px rgb(140, 0, 255);
     padding: 30px;
+    margin: 5px
 }
 
 h1 {
